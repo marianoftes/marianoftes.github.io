@@ -1,0 +1,58 @@
+html{
+	height:100%;
+}
+
+li{
+	margin-right: 10px;
+}
+
+body{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+hr{
+	width: 50%;
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+a img{
+	width:75px;
+}
+
+#content{
+	margin-top: 15%;
+	text-align:center;
+	font-family: "Quicksand";
+}
+
+.h1, h1{
+	margin-top: 20%;
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 8px 9px rgba(0,0,0,0.3),
+				 0px 16px 13px rgba(0,0,0,0.1);
+}
+
+.btn-group-lg>.btn, .btn-lg{
+	font-size:2em;
+	font-weight:400;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-family: "Quicksand";
+	color:white;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.navbar-light .navbar-brand{
+	font-family: "Rajdhani";
+	font-size: 2em;
+	color:#f4f4f4;
+	font-weight: 400;
+}
